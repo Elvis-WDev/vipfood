@@ -1,0 +1,63 @@
+.header {
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .Game_container {
+
+            overflow: hidden;
+            width: 80%;
+
+        }
+
+
+    }
+
+}
+
+
+
+.btn_custom-primary {
+
+    background-color: #FACF28;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    color: rgba(40, 47, 56, 0.588);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    transition: all ease-in-out 300ms;
+
+    &:hover {
+
+        color: #000000;
+        background-color: #fad028;
+        transition: all ease-in-out 300ms;
+
+    }
+
+}
+
+.btn_custom_Navbar {
+
+    padding: 10px;
+    background-color: #FACF28;
+    border-radius: 10px;
+    margin: 5px;
+    color: #000000;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+.bg-yellow {
+
+    background-color: #FACF28;
+    color: #000000;
+
+
+}
